@@ -1,122 +1,27 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+/* Timeline */
+.timeline {
+    margin-top: 40px;
 }
 
-body {
-    font-family: 'Poppins', sans-serif;
-    background: #0f0f0f;
-    color: #ffffff;
-    scroll-behavior: smooth;
+.timeline-item {
+    margin-bottom: 40px;
+    padding-left: 20px;
+    border-left: 2px solid #00f7ff;
 }
 
-header {
-    position: fixed;
+.timeline-item span {
+    font-size: 14px;
+    color: #00f7ff;
+}
+
+/* Portfolio Images */
+.portfolio img {
     width: 100%;
-    padding: 20px 10%;
-    display: flex;
-    justify-content: space-between;
-    background: rgba(0,0,0,0.6);
-    backdrop-filter: blur(10px);
-    z-index: 1000;
-}
-
-.logo {
-    font-weight: 700;
-    font-size: 20px;
-}
-
-nav a {
-    color: white;
-    text-decoration: none;
-    margin-left: 25px;
-    transition: 0.3s;
-}
-
-nav a:hover {
-    color: #00f7ff;
-}
-
-.hero {
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    padding: 0 10%;
-}
-
-.hero h1 {
-    font-size: 60px;
-}
-
-.hero h2 {
-    font-weight: 400;
-    margin: 10px 0;
-    color: #00f7ff;
-}
-
-.hero p {
-    margin: 15px 0;
-    color: #ccc;
-}
-
-.btn {
-    padding: 12px 25px;
-    border: 2px solid #00f7ff;
-    color: #00f7ff;
-    text-decoration: none;
-    transition: 0.3s;
-}
-
-.btn:hover {
-    background: #00f7ff;
-    color: black;
-}
-
-section {
-    padding: 120px 10%;
-}
-
-.skill-grid {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-}
-
-.skill {
-    padding: 15px 25px;
-    border: 1px solid #00f7ff;
-    transition: 0.3s;
-}
-
-.skill:hover {
-    background: #00f7ff;
-    color: black;
-}
-
-.portfolio {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 30px;
-}
-
-.card {
-    background: #1c1c1c;
-    padding: 25px;
     border-radius: 8px;
-    transition: 0.3s;
+    margin-bottom: 15px;
 }
 
-.card:hover {
-    transform: translateY(-10px);
-    background: #00f7ff;
-    color: black;
-}
-
-footer {
-    text-align: center;
-    padding: 40px;
-    background: #111;
+/* Smooth Scroll */
+html {
+    scroll-behavior: smooth;
 }
