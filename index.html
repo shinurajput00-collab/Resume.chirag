@@ -3,13 +3,13 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Chirag Sisodiya | Animator & Designer</title>
+<title>Chirag Sisodiya | Luxury Packaging & UI/UX Designer</title>
 
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
-
 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
 <header>
@@ -17,57 +17,100 @@
     <nav>
         <a href="#about">About</a>
         <a href="#skills">Skills</a>
-        <a href="#work">Work</a>
+        <a href="#experience">Resume</a>
+        <a href="#work">Portfolio</a>
         <a href="#contact">Contact</a>
     </nav>
 </header>
 
+<!-- HERO SECTION -->
 <section class="hero">
     <div data-aos="fade-up">
         <h1>Hi, I'm Chirag</h1>
-        <h2>UI/UX Designer • Luxury Packaging Designer • Animator</h2>
-        <p>Creating premium brand experiences through design, motion & storytelling.</p>
-        <a href="#work" class="btn">View My Work</a>
+        <h2>Luxury Packaging Designer • UI/UX Designer • Animator</h2>
+        <p>Designing premium brand experiences through packaging, product identity, and cinematic visualization.</p>
+        <a href="#work" class="btn">View Portfolio</a>
     </div>
 </section>
 
+<!-- ABOUT -->
 <section id="about">
     <h2 data-aos="fade-right">About Me</h2>
     <p data-aos="fade-left">
         I specialize in luxury packaging design, domestic product branding with label systems,
-        and cinematic interior rendering. My work blends structure, storytelling, and aesthetic precision.
+        and photorealistic interior rendering. My work blends structured thinking with bold aesthetics,
+        creating premium visual identities that elevate brands.
     </p>
 </section>
 
+<!-- SKILLS -->
 <section id="skills">
     <h2 data-aos="fade-up">Skills</h2>
     <div class="skill-grid">
-        <div class="skill" data-aos="zoom-in">UI/UX Design</div>
         <div class="skill" data-aos="zoom-in">Luxury Packaging</div>
-        <div class="skill" data-aos="zoom-in">Product Label Design</div>
+        <div class="skill" data-aos="zoom-in">Product Label Systems</div>
+        <div class="skill" data-aos="zoom-in">UI/UX Design</div>
         <div class="skill" data-aos="zoom-in">3D Interior Rendering</div>
+        <div class="skill" data-aos="zoom-in">Brand Identity</div>
         <div class="skill" data-aos="zoom-in">Motion Graphics</div>
     </div>
 </section>
 
-<section id="work">
-    <h2 data-aos="fade-up">Selected Work</h2>
-    <div class="portfolio">
-        <div class="card" data-aos="fade-up">
-            <h3>Premium Perfume Packaging</h3>
-            <p>Luxury rigid box design with gold foil detailing.</p>
+<!-- RESUME / EXPERIENCE -->
+<section id="experience">
+    <h2 data-aos="fade-up">Experience</h2>
+
+    <div class="timeline">
+
+        <div class="timeline-item" data-aos="fade-right">
+            <h3>Freelance Luxury Packaging Designer</h3>
+            <span>2023 - Present</span>
+            <p>Designed premium packaging concepts and structured label systems for domestic and emerging brands.</p>
         </div>
-        <div class="card" data-aos="fade-up">
-            <h3>Domestic Product Branding</h3>
-            <p>Minimal label system & structured visual identity.</p>
+
+        <div class="timeline-item" data-aos="fade-left">
+            <h3>Product Branding Specialist</h3>
+            <span>2022 - 2023</span>
+            <p>Developed identity systems, print-ready packaging files, and 3D product visualizations.</p>
         </div>
-        <div class="card" data-aos="fade-up">
-            <h3>Luxury Interior Render</h3>
-            <p>High-end cinematic 3D visualization concept.</p>
+
+        <div class="timeline-item" data-aos="fade-right">
+            <h3>UI/UX & Visual Designer</h3>
+            <span>2021 - 2022</span>
+            <p>Created modern digital interfaces and brand storytelling visuals.</p>
         </div>
+
     </div>
 </section>
 
+<!-- PORTFOLIO -->
+<section id="work">
+    <h2 data-aos="fade-up">Selected Work</h2>
+
+    <div class="portfolio">
+
+        <div class="card" data-aos="fade-up">
+            <img src="images/packaging1.jpg" alt="Luxury Packaging">
+            <h3>Luxury Packaging Concept</h3>
+            <p>Premium rigid box with gold detailing.</p>
+        </div>
+
+        <div class="card" data-aos="fade-up">
+            <img src="images/label1.jpg" alt="Product Label">
+            <h3>Product Label System</h3>
+            <p>Minimal domestic product branding layout.</p>
+        </div>
+
+        <div class="card" data-aos="fade-up">
+            <img src="images/interior1.jpg" alt="Interior Render">
+            <h3>Interior Visualization</h3>
+            <p>Cinematic 3D render of luxury space.</p>
+        </div>
+
+    </div>
+</section>
+
+<!-- CONTACT -->
 <section id="contact">
     <h2 data-aos="fade-up">Contact</h2>
     <p>Email: your@email.com</p>
@@ -75,11 +118,16 @@
 </section>
 
 <footer>
-    © 2026 CRAG.SI — Designed by Chirag
+    © 2026 CRAG.SI — Designed & Developed by Chirag
 </footer>
 
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script src="script.js"></script>
+<script>
+AOS.init({
+    duration: 1000,
+    once: true
+});
+</script>
 
 </body>
 </html>
